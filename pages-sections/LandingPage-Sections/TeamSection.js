@@ -40,16 +40,14 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Dr. Karishma Sewaramani
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Radiation Oncologist</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                Karishma's detail and link tp profile.
+                  some <a href="#pablo">links</a> profile page
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -93,10 +91,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  More details
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -133,10 +128,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  More details
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>

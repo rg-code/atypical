@@ -23,7 +23,7 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Here{"'"}s how</h2>
           <h5 className={classes.description}>
-            We are a 501(c)(3) non-profit organization with no competing financial interests with sole purpose of helping you - MBA aspirant with atypical profile. We help you with identifying your resume twin, establishing a network, and just importantly, mapping your career vision.
+            We are a 501(c)(3) non-profit organization with no competing financial interests and sole purpose of helping you - MBA aspirant with atypical profile land your dream admit. We will help you identify your resume twin, establishing a network, and most  importantly, mapping your career vision.
           </h5>
         </GridItem>
       </GridContainer>
