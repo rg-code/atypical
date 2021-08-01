@@ -47,18 +47,15 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}> A typical MBA.</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+              You don{"'"}t know what you don't know. We realize and have first hand experiernce with being informed of our profile being <u>atypical</u> for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, tech etc.) and want to get an MBA we your journey starts with us. We provide resources, network,  and empower you to bridge the gap.
               </h4>
               <br />
               <Button
-                color="danger"
+                color="warning"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >

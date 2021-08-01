@@ -21,13 +21,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Here{"'"}s how</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            We are a 501(c)(3) non-profit organization with no competing financial interests with sole purpose of helping you - MBA aspirant with atypical profile. We help you with identifying your resume twin, establishing a network, and just importantly, mapping your career vision.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,27 +31,27 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Resume Twin"
+              description="will help you find one."
               icon={Chat}
-              iconColor="info"
+              iconColor="info" //find icon
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Network"
+              description="help with this."
               icon={VerifiedUser}
-              iconColor="success"
+              iconColor="success" //find icon
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              title="Career Vision"
+              description="help with this too."
+              icon={Fingerprint} //find icon
               iconColor="danger"
               vertical
             />
