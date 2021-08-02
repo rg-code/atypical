@@ -111,7 +111,7 @@ export default function TeamSection() {
                 </Button>
               </CardFooter>
             </Card>
-          </GridItem>
+          //</GridItem>
           // <GridItem xs={12} sm={12} md={4}>
           //   <Card plain>
           //     <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
