@@ -50,16 +50,17 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <Icon className={classes.icons}>unarchive</Icon> Contact
-        </Button>
-      </ListItem>
+      // <ListItem className={classes.listItem}>
+      //   <Button
+      //     href=""
+      //     color="transparent"
+      //     target="_blank"
+      //     className={classes.navLink}
+      //   >
+      //     <Icon className={classes.icons}>unarchive
+      //     </Icon>
+      //   </Button>
+      // </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href=""
