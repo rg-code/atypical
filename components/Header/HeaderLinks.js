@@ -50,17 +50,16 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>
-      // <ListItem className={classes.listItem}>
-      //   <Button
-      //     href=""
-      //     color="transparent"
-      //     target="_blank"
-      //     className={classes.navLink}
-      //   >
-      //     <Icon className={classes.icons}>unarchive
-      //     </Icon>
-      //   </Button>
-      // </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href=""
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <Icon className={classes.icons}>unarchive</Icon>
+        </Button>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href=""
@@ -110,23 +109,23 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={"top"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
+      // <ListItem className={classes.listItem}>
+      //   <Tooltip
+      //     id="instagram-tooltip"
+      //     title="Follow us on instagram"
+      //     placement={"top"}
+      //     classes={{ tooltip: classes.tooltip }}
+      //   >
+      //     <Button
+      //       color="transparent"
+      //       href="https://www.instagram.com/"
+      //       target="_blank"
+      //       className={classes.navLink}
+      //     >
+      //       <i className={classes.socialIcons + " fab fa-instagram"} />
+      //     </Button>
+      //   </Tooltip>
+      // </ListItem>
     </List>
   );
 }
