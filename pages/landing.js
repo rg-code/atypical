@@ -49,7 +49,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> A typical MBA.</h1>
               <h4>
-              You don{"'"}t know what you don't know. We realize and have first hand experiernce with being informed of our profile being <u>atypical</u> for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, tech) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
+              You don{"'"}t know what you don't know. We realize and have first hand experience with being informed of our profile being <u>atypical</u> for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, tech) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
               </h4>
               <br />
               <Button
