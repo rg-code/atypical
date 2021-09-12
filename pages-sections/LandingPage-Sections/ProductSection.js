@@ -36,7 +36,7 @@ export default function ProductSection() {
               icon={Chat}
               iconColor="info" //find icon
               vertical
-            />
+            />  
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea

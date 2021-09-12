@@ -48,7 +48,7 @@ export default function TeamSection() {
                 <p className={classes.description}>
                 Radiation Oncologist enroute to an MBA. Budding entrepeneur
                 trying to make oncology care more equitable. More details
-                <a href="#pablo">here</a>
+                <a href="#pablo"> here</a>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
