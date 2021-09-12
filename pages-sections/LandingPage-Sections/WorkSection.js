@@ -26,18 +26,22 @@ export default function WorkSection() {
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Need Help? Would like to know more?</h2>
-          <h4 className={classes.description}>
-            Get in touch:
-          </h4>
-          <form name="contact" action="/success" method="POST" data-netlify="true">
+          // <h4 className={classes.description}>
+          //   Get in touch:
+          // </h4>
+          <form name="contact" action="/" method="POST" data-netlify="true">
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Name"
-                  type="hidden"
-                  name="form-name"
-                  value="contact"
-                  id="name"
+                  // labelText="Your Name"
+                  // type="hidden"
+                  // name="form-name"
+                  // value="contact"
+                  // id="name"
+                  type="text"
+                  class="inputs"
+                  placeholder="Name.."
+                  name="contact"
                   formControlProps={{
                     fullWidth: true,
                   }}
@@ -45,22 +49,22 @@ export default function WorkSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Email"
-                  type="hidden"
-                  name="form-name"
-                  value="contact"
-                  id="email"
+                  // labelText="Your Email"
+                  // type="hidden"
+                  // name="form-name"
+                  // value="contact"
+                  // id="email"
                   formControlProps={{
                     fullWidth: true,
                   }}
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
-                type="hidden"
-                name="form-name"
-                value="contact"
-                id="message"
+                // labelText="Your Message"
+                // type="hidden"
+                // name="form-name"
+                // value="contact"
+                // id="message"
                 formControlProps={{
                   fullWidth: true,
                   className: classes.textArea,
