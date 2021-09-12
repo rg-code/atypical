@@ -29,6 +29,9 @@ export default function WorkSection() {
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
                   labelText="Your Name"
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
                   id="name"
                   formControlProps={{
                     fullWidth: true,
@@ -38,6 +41,9 @@ export default function WorkSection() {
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
                   labelText="Your Email"
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
                   id="email"
                   formControlProps={{
                     fullWidth: true,
@@ -46,6 +52,9 @@ export default function WorkSection() {
               </GridItem>
               <CustomInput
                 labelText="Your Message"
+                type="hidden"
+                name="form-name"
+                value="contact"
                 id="message"
                 formControlProps={{
                   fullWidth: true,

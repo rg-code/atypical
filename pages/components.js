@@ -6,9 +6,6 @@ import Link from "next/link";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import GroupAddIcon from '@material-ui/icons/GroupAdd';
-import BlurOnIcon from '@material-ui/icons/BlurOn';
-import ForumIcon from '@material-ui/icons/Forum';
 // core components
 import Header from "components/Header/Header.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
