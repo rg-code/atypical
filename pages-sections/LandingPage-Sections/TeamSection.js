@@ -36,11 +36,7 @@ export default function TeamSection() {
                 <img
                   src="/img/faces/avatar.jpg"
                   alt="..."
-                  className={classes.imgRaised +
-                  " " +
-                  classes.imgRounded +
-                  " " +
-                  classes.imgFluid}
+                  className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
