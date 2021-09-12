@@ -50,7 +50,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Career Vision"
-              description="."
+              description="Your MBA candidature is as good as your career vision aka how you and why you need an MBA. We help you refine your career vision - atypical MBA applicant."
               icon={VerifiedUser} //find icon
               iconColor="danger"
               vertical
