@@ -30,14 +30,11 @@ export default function WorkSection() {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <input
-                type="hidden"
-                name="form-name"
-                value="contact"
-                  // labelText="Your Name"
-                  // type="hidden"
-                  // name="form-name"
-                  // value="contact"
-                  // id="name"
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
+                  labelText="Your Name"
+                  id="name"
                   formControlProps={{
                     fullWidth: true,
                   }}
@@ -45,28 +42,22 @@ export default function WorkSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <input
-                type="hidden"
-                name="form-name"
-                value="contact"
-                  // labelText="Your Email"
-                  // type="hidden"
-                  // name="form-name"
-                  // value="contact"
-                  // id="email"
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
+                  labelText="Your Email"
+                  id="email"
                   formControlProps={{
                     fullWidth: true,
                   }}
                 />
               </GridItem>
               <input
-              type="hidden"
-              name="form-name"
-              value="contact"
-                // labelText="Your Message"
-                // type="hidden"
-                // name="form-name"
-                // value="contact"
-                // id="message"
+                type="hidden"
+                name="form-name"
+                value="contact"
+                labelText="Your Message"
+                id="message"
                 formControlProps={{
                   fullWidth: true,
                   className: classes.textArea,
