@@ -42,7 +42,7 @@ export default function ProductSection() {
             <InfoArea
               title="Network"
               description="Access to broder pool of students and alumni within your general field of interest."
-              icon={Network}
+              icon={Chat}
               iconColor="success" //find icon
               vertical
             />
