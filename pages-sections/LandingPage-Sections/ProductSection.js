@@ -33,7 +33,7 @@ export default function ProductSection() {
             <InfoArea
               title="Resume Twin"
               description="We identify and pair you with a current MBA student or alumni with a similar background, profile, and career aspirations as you - atypical MBA applicant."
-              icon={RecentActors}
+              icon={PeopleOutline}
               iconColor="info" //find icon
               vertical
             />
