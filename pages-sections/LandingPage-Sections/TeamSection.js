@@ -99,6 +99,8 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               </Card>
+          </GridItem>
+        </GridContainer>
               // <CardFooter className={classes.justifyCenter}>
               //   <Button
               //     justIcon
@@ -118,8 +120,6 @@ export default function TeamSection() {
               //   </Button>
               // </CardFooter>
             // </Card>
-          </GridItem>
-          </GridContainer>
       </div>
     </div>
   );
