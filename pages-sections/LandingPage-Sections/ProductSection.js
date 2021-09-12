@@ -33,16 +33,16 @@ export default function ProductSection() {
             <InfoArea
               title="Resume Twin"
               description="We identify and pair you with a current MBA student or alumni with a similar background, profile, and career aspirations as you - atypical MBA applicant."
-              icon={Chat}
+              icon={RecentActors}
               iconColor="info" //find icon
               vertical
-            />  
+            />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Network"
-              description="Access to broder pool of students and alumni within your general field of interest. Or to just chat and know people that overcame same intertia as you - atypical MBA applicant."
-              icon={Chat}
+              description="Access to current MBA students and alumni within your field of interest. Or just connect and get to know people that overcame same intertia as you - atypical MBA applicant."
+              icon={GroupAdd}
               iconColor="success" //find icon
               vertical
             />
@@ -51,7 +51,7 @@ export default function ProductSection() {
             <InfoArea
               title="Career Vision"
               description="Your MBA candidature is as good as your career vision aka how you and why you need an MBA. We help you refine your career vision - atypical MBA applicant."
-              icon={VerifiedUser} //find icon
+              icon={Ballot} //find icon
               iconColor="danger"
               vertical
             />

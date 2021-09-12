@@ -51,7 +51,7 @@ export default function LandingPage(props) {
               <h4>
               You don{"'"}t know what you don't know.
               <br/>
-              We realize and have first hand experience with being informed of our profile being atypical/non-traditional for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, tech) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
+              I have first hand experience of being informed that my profile was atypical/non-traditional for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, etc) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
               </h4>
               <br />
               <Button
