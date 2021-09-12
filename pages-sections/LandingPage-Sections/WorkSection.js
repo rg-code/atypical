@@ -29,7 +29,7 @@ export default function WorkSection() {
           <form name="contact" action="/?success=true" method="POST" data-netlify="true">
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <input
+                <CustomInput
                   type="hidden"
                   name="form-name"
                   value="contact"
@@ -41,7 +41,7 @@ export default function WorkSection() {
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
-                <input
+                <CustomInput
                   type="hidden"
                   name="form-name"
                   value="contact"
@@ -52,7 +52,7 @@ export default function WorkSection() {
                   }}
                 />
               </GridItem>
-              <input
+              <CustomInput
                 type="hidden"
                 name="form-name"
                 value="contact"
