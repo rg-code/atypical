@@ -36,7 +36,7 @@ export default function WorkSection() {
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
                   type="hidden"
-                  name="form-name"
+                  name="name"
                   value="contact"
                   labelText="Your Name"
                   id="name"
@@ -48,7 +48,7 @@ export default function WorkSection() {
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
                   type="hidden"
-                  name="form-name"
+                  name="email"
                   value="contact"
                   labelText="Your Email"
                   id="email"
@@ -59,7 +59,7 @@ export default function WorkSection() {
               </GridItem>
               <CustomInput
                 type="hidden"
-                name="form-name"
+                name="message"
                 value="contact"
                 labelText="Your Message"
                 id="message"
