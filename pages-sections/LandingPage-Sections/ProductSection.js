@@ -33,7 +33,7 @@ export default function ProductSection() {
             <InfoArea
               title="Resume Twin"
               description="We identify and pair you with a current MBA student or alumni with a similar background, profile, and career aspirations as you - atypical MBA applicant."
-              icon={Chat}
+              icon={Fingerprint}
               iconColor="info" //find icon
               vertical
             />
@@ -42,7 +42,7 @@ export default function ProductSection() {
             <InfoArea
               title="Network"
               description="Access to current MBA students and alumni within your field of interest. Or just connect and get to know people that overcame same intertia as you - atypical MBA applicant."
-              icon={Forum}
+              icon={Chat}
               iconColor="success" //find icon
               vertical
             />
