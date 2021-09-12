@@ -33,7 +33,7 @@ export default function ProductSection() {
             <InfoArea
               title="Resume Twin"
               description="We identify and pair you with a current MBA student or alumni with a similar background, profile, and career aspirations as you - atypical MBA applicant."
-              icon={Receipt}
+              icon={Chat}
               iconColor="info" //find icon
               vertical
             />
@@ -51,7 +51,7 @@ export default function ProductSection() {
             <InfoArea
               title="Career Vision"
               description="Your MBA candidature is as good as your career vision aka how you and why you need an MBA. We help you refine your career vision - atypical MBA applicant."
-              icon={Ballot} //find icon
+              icon={VerifiedUser} //find icon
               iconColor="danger"
               vertical
             />
