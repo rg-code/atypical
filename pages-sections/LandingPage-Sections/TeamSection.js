@@ -32,11 +32,15 @@ export default function TeamSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <GridItem xs={12} sm={12} md={4} className={classes.itemGrid}>
                 <img
                   src="/img/faces/avatar.jpg"
                   alt="..."
-                  className={imageClasses}
+                  className={classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
@@ -81,7 +85,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <GridItem xs={12} sm={12} md={4} className={classes.itemGrid}>
                 <img
                   src="/img/faces/you.jpg"
                   alt="..."
@@ -95,7 +99,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  If you want to
+                  Please get in touch if you'd like to help out.
                 </p>
               </CardBody>
               </Card>

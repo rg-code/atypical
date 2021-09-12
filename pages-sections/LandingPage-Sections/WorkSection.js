@@ -20,9 +20,9 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+          <h2 className={classes.title}>Need Help? Would like to know more?</h2>
           <h4 className={classes.description}>
-            Information about getting in touch with us
+            Get in touch:
           </h4>
           <form>
             <GridContainer>

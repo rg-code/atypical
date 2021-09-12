@@ -23,7 +23,7 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Here{"'"}s how</h2>
           <h5 className={classes.description}>
-            We are a 501(c)(3) non-profit organization with no competing financial interests and sole purpose of helping you - MBA aspirant with atypical profile land your dream admit. We will help you identify your resume twin, establishing a network, and most  importantly, mapping your career vision.
+            aTYPICAL MBA is a not-for-profit resource with the sole purpose of helping you - MBA aspirant with an atypical/non-traditional profile land your dream MBA admit. We will help you identify your resume twin, establish a network, and most  importantly, mapping your career vision.
           </h5>
         </GridItem>
       </GridContainer>
@@ -32,7 +32,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Resume Twin"
-              description="will help you find one."
+              description="We identify and pair you with a current MBA student or alumni with a similar background, profile, and career aspirations as you - atypical MBA applicant."
               icon={Chat}
               iconColor="info" //find icon
               vertical
@@ -41,8 +41,8 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Network"
-              description="help with this."
-              icon={VerifiedUser}
+              description="Access to broder pool of students and alumni within your general field of interest."
+              icon={Network}
               iconColor="success" //find icon
               vertical
             />
@@ -50,8 +50,8 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Career Vision"
-              description="help with this too."
-              icon={Fingerprint} //find icon
+              description="."
+              icon={VerifiedUser} //find icon
               iconColor="danger"
               vertical
             />
