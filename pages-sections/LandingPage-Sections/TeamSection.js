@@ -27,7 +27,7 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>Here is our team:</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
@@ -40,34 +40,38 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Dr. Karishma Sewaramani
-                <br />
+                Karishma Sewaramani, <small>MBBS, MD</small>
+                <br/>
                 <small className={classes.smallTitle}>Radiation Oncologist</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                Karishma's detail and link to profile.
-                  some <a href="#pablo">links</a> profile page
+                Radiation Oncologist enroute to an MBA. Budding entrepeneur
+                trying to make oncology care more equitable. More details
+                <a href="#pablo">here</a>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
                   color="transparent"
+                  href=""
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
+                  <i className={classes.socials + " fab fa-redit"} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
+                  href=""
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-instagram"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
+                  href=""
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
@@ -85,31 +89,33 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                You??
                 <br />
                 <small className={classes.smallTitle}>Designer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  More details
+                  If you want to
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
+              // <CardFooter className={classes.justifyCenter}>
+              //   <Button
+              //     justIcon
+              //     color="transparent"
+              //     href=""
+              //     className={classes.margin5}
+              //   >
+              //     <i className={classes.socials + " fab fa-twitter"} />
+              //   </Button>
+              //   <Button
+              //     justIcon
+              //     color="transparent"
+              //     href=""
+              //     className={classes.margin5}
+              //   >
+              //     <i className={classes.socials + " fab fa-linkedin"} />
+              //   </Button>
+              // </CardFooter>
             </Card>
           </GridItem>
           </GridContainer>

@@ -34,12 +34,12 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="ATYPICAL MBA"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white",
+          color: "warning",
         }}
         {...rest}
       />
@@ -49,7 +49,9 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> A typical MBA.</h1>
               <h4>
-              You don{"'"}t know what you don't know. We realize and have first hand experience with being informed of our profile being <u>atypical</u> for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, tech) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
+              You don{"'"}t know what you don't know.
+              <br/>
+              We realize and have first hand experience with being informed of our profile being <u>atypical</u> for an MBA. If you are from sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, tech) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
               </h4>
               <br />
               <Button
@@ -59,8 +61,8 @@ export default function LandingPage(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fas fa-play" />
-                Watch video
+                <i className="fas fa-letter" />
+                Get in touch
               </Button>
             </GridItem>
           </GridContainer>
