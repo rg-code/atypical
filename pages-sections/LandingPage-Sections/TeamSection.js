@@ -101,25 +101,6 @@ export default function TeamSection() {
               </Card>
           </GridItem>
         </GridContainer>
-              // <CardFooter className={classes.justifyCenter}>
-              //   <Button
-              //     justIcon
-              //     color="transparent"
-              //     href=""
-              //     className={classes.margin5}
-              //   >
-              //     <i className={classes.socials + " fab fa-twitter"} />
-              //   </Button>
-              //   <Button
-              //     justIcon
-              //     color="transparent"
-              //     href=""
-              //     className={classes.margin5}
-              //   >
-              //     <i className={classes.socials + " fab fa-linkedin"} />
-              //   </Button>
-              // </CardFooter>
-            // </Card>
       </div>
     </div>
   );
