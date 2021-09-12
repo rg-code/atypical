@@ -98,6 +98,7 @@ export default function TeamSection() {
                   If you want to
                 </p>
               </CardBody>
+              </Card>
               // <CardFooter className={classes.justifyCenter}>
               //   <Button
               //     justIcon
@@ -116,7 +117,7 @@ export default function TeamSection() {
               //     <i className={classes.socials + " fab fa-linkedin"} />
               //   </Button>
               // </CardFooter>
-            </Card>
+            // </Card>
           </GridItem>
           </GridContainer>
       </div>
