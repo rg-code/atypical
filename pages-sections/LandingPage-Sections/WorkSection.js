@@ -26,29 +26,28 @@ export default function WorkSection() {
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Need Help? Would like to know more?</h2>
-          // <h4 className={classes.description}>
-          //   Get in touch:
-          // </h4>
-          <form name="contact" action="/" method="POST" data-netlify="true">
+          <form name="contact" action="/?success=true" method="POST" data-netlify="true">
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
+                <input
+                type="hidden"
+                name="form-name"
+                value="contact"
                   // labelText="Your Name"
                   // type="hidden"
                   // name="form-name"
                   // value="contact"
                   // id="name"
-                  type="text"
-                  class="inputs"
-                  placeholder="Name.."
-                  name="contact"
                   formControlProps={{
                     fullWidth: true,
                   }}
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
+                <input
+                type="hidden"
+                name="form-name"
+                value="contact"
                   // labelText="Your Email"
                   // type="hidden"
                   // name="form-name"
@@ -59,7 +58,10 @@ export default function WorkSection() {
                   }}
                 />
               </GridItem>
-              <CustomInput
+              <input
+              type="hidden"
+              name="form-name"
+              value="contact"
                 // labelText="Your Message"
                 // type="hidden"
                 // name="form-name"

@@ -49,7 +49,7 @@ export default function LandingPage(props) {
       />
       <Parallax filter responsive image="/img/landing-bg.jpg">
         <div className={classes.container}>
-          <GridContainer>https://react-cool-form.netlify.app/docs/examples/material-ui
+          <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> a<u>TYPICAL</u> MBA.</h1>
               <h4>
