@@ -57,7 +57,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <Icon className={classes.icons}>unarchive</Icon>
+          <CloudDownload className={classes.icons} /> LinkedIn Tips
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -78,34 +78,34 @@ export default function HeaderLinks(props) {
         </Tooltip>*/}
         <Tooltip
           id="instagram-twitter"
-          title="Follow us on twitter"
+          title="Follow us on LinkedIn"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/"
+            href="https://linkedin.com/"
             target="_blank"
             color="transparent"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
+            <i className={classes.socialIcons + " fab fa-linkedin"} />
           </Button>
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
-          title="Follow us on facebook"
+          title="Follow us on Reddit"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/"
+            href="https://www.reddit.com/"
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
+            <i className={classes.socialIcons + " fab fa-reddit"} />
           </Button>
         </Tooltip>
       </ListItem>
