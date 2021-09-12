@@ -3,6 +3,11 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
+import BlurOnIcon from '@material-ui/icons/BlurOn';
+import GroupAddIcon from '@material-ui/icons/GroupAdd';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+import PolicyIcon from '@material-ui/icons/Policy';
+import ForumIcon from '@material-ui/icons/Forum';
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -66,7 +71,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="warning">Send Message</Button>
+                <Button type="submit" color="warning">Send Message</Button>
               </GridItem>
             </GridContainer>
           </form>

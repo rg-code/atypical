@@ -5,6 +5,11 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
+import BlurOnIcon from '@material-ui/icons/BlurOn';
+import GroupAddIcon from '@material-ui/icons/GroupAdd';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+import PolicyIcon from '@material-ui/icons/Policy';
+import PolicyIcon from '@material-ui/icons/Policy';
 
 // core components
 import Header from "components/Header/Header.js";
