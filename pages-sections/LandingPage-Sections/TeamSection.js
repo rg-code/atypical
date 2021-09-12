@@ -91,11 +91,11 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 You??
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Current Student/Alumni/Applicant</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Please get in touch if you'd like to help out.
+                  Please get in touch if you'd like to help.
                 </p>
               </CardBody>
               </Card>

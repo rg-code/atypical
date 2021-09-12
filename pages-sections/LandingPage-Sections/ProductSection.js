@@ -41,7 +41,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Network"
-              description="Access to broder pool of students and alumni within your general field of interest."
+              description="Access to broder pool of students and alumni within your general field of interest. Or to just chat and know people that overcame same intertia as you - atypical MBA applicant."
               icon={Chat}
               iconColor="success" //find icon
               vertical
