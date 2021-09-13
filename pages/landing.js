@@ -56,10 +56,9 @@ export default function LandingPage(props) {
               <Warning>
               You don{"'"}t know what you don't know.
               </Warning>
-              </h4>
-              <br/>
+              <br />
               I have first hand experience of being informed that my profile was atypical/non-traditional for an MBA and yet I am certain MBA is the shortest path to reach my career goals.
-              <br/>
+              <br />
               If you are from a sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, etc) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
               </h4>
               <br />
