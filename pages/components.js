@@ -56,7 +56,6 @@ export default function LandingPage(props) {
               <Warning>
               You don{"'"}t know what you don't know.
               </Warning>
-              </h4>
               <br/>
               I have first hand experience of being informed that my profile was atypical/non-traditional for an MBA and yet I am certain MBA is the shortest path to reach my career goals.
               <br/>
