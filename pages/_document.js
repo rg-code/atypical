@@ -25,6 +25,21 @@ class MyDocument extends Document {
             href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
             rel="stylesheet"
           />
+          <script
+             async
+             src="https://www.googletagmanager.com/gtag/js?id=[G-GE5960CXZC]"
+           />
+
+           <script
+             dangerouslySetInnerHTML={{
+               __html: `
+                 window.dataLayer = window.dataLayer || [];
+                 function gtag(){dataLayer.push(arguments);}
+                 gtag('js', new Date());
+                 gtag('config', 'G-GE5960CXZC', { page_path: window.location.pathname });
+               `,
+             }}
+           />
         </Head>
         <body>
           <div id="page-transition"></div>
