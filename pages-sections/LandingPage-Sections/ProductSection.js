@@ -26,7 +26,7 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Here{"'"}s how</h2>
+          <h2 className={classes.title}>Here{"'"}s how:</h2>
           <h5 className={classes.description}>
             aTYPICAL MBA is a not-for-profit resource with the sole purpose of helping you - MBA aspirant with an atypical/non-traditional profile land your dream MBA admit. We will help you identify your resume twin, establish a network, and most  importantly, mapping your career vision.
           </h5>
@@ -46,7 +46,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Network"
-              description="Access to current MBA students and alumni within your field of interest. Or simply a chance to know people that overcame same intertia as you - atypical MBA applicant."
+              description="Access to current MBA students and alumni within your field of interest. Or simply a chance to know people that overcame same inertia as you - atypical MBA applicant."
               icon={GroupAddIcon}
               iconColor="success" //find icon
               vertical
