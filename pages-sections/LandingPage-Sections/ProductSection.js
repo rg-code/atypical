@@ -6,6 +6,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
+import BlurOnIcon from '@material-ui/icons/BlurOn';
+import GroupAddIcon from '@material-ui/icons/GroupAdd';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+import PolicyIcon from '@material-ui/icons/Policy';
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -33,7 +38,7 @@ export default function ProductSection() {
             <InfoArea
               title="Resume Twin"
               description="We identify and pair you with a current MBA student or alumni with a similar background, profile, and career aspirations as you - atypical MBA applicant."
-              icon={Fingerprint}
+              icon={PolicyIcon}
               iconColor="info" //find icon
               vertical
             />
@@ -42,7 +47,7 @@ export default function ProductSection() {
             <InfoArea
               title="Network"
               description="Access to current MBA students and alumni within your field of interest. Or just connect and get to know people that overcame same intertia as you - atypical MBA applicant."
-              icon={Chat}
+              icon={GroupAddIcon}
               iconColor="success" //find icon
               vertical
             />
@@ -51,7 +56,7 @@ export default function ProductSection() {
             <InfoArea
               title="Career Vision"
               description="Your MBA candidature is as good as your career vision aka how you and why you need an MBA. We help you refine your career vision - atypical MBA applicant."
-              icon={VerifiedUser} //find icon
+              icon={BlurOnIcon} //find icon
               iconColor="danger"
               vertical
             />
