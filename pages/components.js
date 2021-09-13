@@ -53,9 +53,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> a<u>TYPICAL</u> MBA.</h1>
               <h4>
-              <Warning>
               You don{"'"}t know what you don't know.
-              </Warning>
               <br/>
               I have first hand experience of being informed that my profile was atypical/non-traditional for an MBA and yet I am certain MBA is the shortest path to reach my career goals.
               <br/>
