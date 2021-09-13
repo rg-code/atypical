@@ -55,9 +55,7 @@ export default function LandingPage(props) {
               <h4>
               You don{"'"}t know what you don't know.
               <br/>
-              I have first hand experience of being informed that my profile was atypical/non-traditional for an MBA and yet I am certain MBA is the shortest path to reach my career goals.
-              <br/>
-              If you are from a sector not typically considered {"'"}feeder{"'"} for an MBA (a la banking, finance, etc) and want to pursue an MBA your journey starts with us. We provide resources, network, and empower you to bridge the gap.
+              If you are from a sector not considered a {"'"}feeder{"'"} for an MBA (a la banking, finance, etc.) but would like to pursue an MBA, your journey starts here. We provide resources, network, and empower you to bridge the gap. I know the challenges of applying for an MBA with atypical/non-traditional backgrounds. Like you, I too am confident that an MBA is the most efficient path to reach long term career goals. 
               </h4>
               <br />
               <Button
