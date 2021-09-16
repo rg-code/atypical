@@ -46,7 +46,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Network"
-              description="Access to current MBA students and alumni within your field of interest. Or simply a chance to know people that overcame same inertia as you - atypical MBA applicant."
+              description="Access to current MBA students and alums with similar non-traditional backgrounds. Oppurtuniuty to  overcame same inertia as you - atypical MBA applicant."
               icon={GroupAddIcon}
               iconColor="success" //find icon
               vertical
@@ -55,7 +55,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Career Vision"
-              description="Your MBA candidature is as good as your career vision aka how you and why you need an MBA. We help you refine your career vision - atypical MBA applicant."
+              description="Your MBA candidature is as good as your career vision, (aka),  your 'Why MBA'. We help you refine your career vision - atypical MBA applicant."
               icon={BlurOnIcon} //find icon
               iconColor="danger"
               vertical
